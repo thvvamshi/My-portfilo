@@ -1,0 +1,426 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.massbody{
+    width: 100vw;
+    height: 8000px;
+    color: white;
+    background-color: black;
+}
+.navbar-section{
+    padding-left: 25px;
+    width: 92vw;
+    margin:0 auto;
+}
+.anchor{
+    padding-left: 15px;
+    margin-left: auto;
+}
+.itemnav{
+    font-weight: 450;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 17px;
+    color: white;
+    margin:2px 2px;
+}
+.itemnav:hover{
+    color:goldenrod;
+    border-bottom: 2px solid rgb(161, 142, 35);
+}
+.logo1{
+    height: 35px;
+}
+.body-selection{
+    
+}
+.aboutme-container{
+
+}
+.box-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.2;
+    height: 90vh;
+
+}
+h1{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1.2;
+} 
+.box-right{
+    height: 80vh;
+    margin-left: -100px;
+}
+.image{
+    height: 80vh;
+    width: 40vw;
+}
+.container-bodybtn{
+     display: flex;
+    flex-direction: row;
+}
+.bodybtn{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.bodybtn:hover{
+    border: 2px solid rgb(66, 66, 193);
+}
+.aboutme-container{
+    margin-top: 50px;
+}
+.aboutme1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.about-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.image2{
+    height: 60vh;
+    width: 30vw;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+.about-right{
+    width: 49vw;
+}
+.about-header{
+    text-align: center;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-right: 3rem;
+    margin-top: 30px;
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content:center;
+}
+.details-info{
+    width:70%;
+    margin-top: 1.5rem;
+    margin-left: -2.5rem;
+}
+.inputdetais{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 2rem;
+    margin-left: -2.5rem;
+}
+.tablegrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+li{
+    margin:18px;
+}
+.span1{
+    font-style: normal;
+    font:bold;
+    font-weight:700;
+    font-size:20px;
+}
+.span2{
+    font: size 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+.resume-container{
+    margin-top: 100px;
+    padding: 20px;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 120px;
+}
+.headh1{
+    letter-spacing: 3px;
+}
+.para{
+    margin: 25px;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 50px;
+
+}
+.resume-grid{
+    margin: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2rem;
+}
+.resumecard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 30, 30);
+    border-radius: 10px;
+    padding:2rem;
+    gap:1rem;
+}
+.resumeyear{
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 750;
+}
+.resumecv{
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+.resumebtn{
+    border: 2px solid goldenrod;
+    background-color: goldenrod;
+    border-radius: 40px;
+    padding: 1.5rem;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.service-container{
+    padding: 20px;
+}
+.service-grid{
+    max-width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+}
+.servicescard{
+    background-color: rgb(30, 28, 28);
+    border: 2px solid rgb(21, 21, 21);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 37vh;
+    transition: all 1ms linear 0s ;
+}
+.servicescard:hover{
+    background-color: rgb(201, 157, 46);
+    transform: scale(1.05);
+    /* box-shadow: 0 2px 10px white; */
+}
+.serimage{
+    height: 82px;
+    width: 82x;
+}
+.serheader{
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    line-height: 1.3;
+    text-decoration: none;
+}
+.serpar{
+    color: goldenrod;
+}
+.blog-grid{
+    display:grid;  
+    width: 88vw;
+    margin: 0 auto;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+
+}
+.blogcard{
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    padding: 5px;
+}
+.blogimg{
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+}
+.date{
+    display: flex;
+    flex-direction:row;
+    justify-content:start;
+    gap: 30px;
+}
+.blogpara{
+    color: goldenrod;
+    font-size: 15px;
+    font: bold;
+    text-transform: uppercase;
+}
+.bloghead{
+    text-decoration: none ;
+    color: white;
+}
+.bloghead:hover{
+    color: goldenrod;
+}
+.blogpara2{
+    font-weight: lighter;
+}
+.freelences-section{
+    margin-top: 170px;
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.freecontainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://themewagon.github.io/clark/images/bg_1.jpg);
+}
+.freebox{
+    text-align: center;
+    width: 800px;
+}
+.freepara{
+    font-size: 53px;
+    font-weight:850;
+}
+.freebtn{
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: goldenrod;
+    height: 3.9rem;
+    width: 12.6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.contact-container{
+    margin-top: 100px;
+}
+.contact-grid{
+    width: 90vw;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.5rem;
+}
+.contactcard{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.contactimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(44, 43, 43, 0.992);
+    border-radius: 50%;
+    gap: 1rem;
+}
+.contacttext{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.sendmsg{
+    margin-top: 140px;
+}
+.sendmsg-container{
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.send-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sendimg{
+    height: 100vh;
+    width: 45vw;
+}
+.send-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+.links-section{
+    margin-top: 100px;
+}
+.links-container{
+    width: 86vw;
+    margin: 0 auto;
+}
+.links-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+.gridcard{
+    padding: 10px 11px;
+    text-align: left;
+}
+.foothead{
+    padding-left: 60px;
+}
+.list{
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font: bold;
+    color: rgb(243, 236, 236);
+}
+.span1{
+    font-size: 25px;
+    height: 2px;
+}
+li{
+    list-style: none;
+    padding: 0;
+}
+.linkpara{
+    margin-top: 30px;
+}
+.footerpara{
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: center;
+}
