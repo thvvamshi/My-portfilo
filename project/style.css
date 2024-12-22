@@ -460,7 +460,7 @@ li{
     padding: 20px;
   }
   .image2{
-    height: 58vh;
+    height: 50vh;
     width: 30vw;
     margin-top: -1rem;
   }
@@ -490,24 +490,24 @@ li{
     .bodysection{
         background: url("https://res.cloudinary.com/dedsrw0qv/image/upload/v1728713969/profile_pic-removebg-preview_jt73te.png");
         background-repeat: no-repeat; 
-        background-size: 450px;
-        background-position: 130px;
+        background-size: 700px;
+        background-position: 100px;
       }
       .box-left{
           text-align: center;
           div{
               margin-top: 350px;
               p{
-                  font-size: 20px;
-              }
-              h1,span{
-                  font-size: 50px;
-              }
-              h5{
                   font-size: 25px;
               }
+              h1,span{
+                  font-size: 65px;
+              }
+              h5{
+                  font-size: 35px;
+              }
               button{
-                  font-size: 13px;
+                  font-size: 20px;
               }
               button:hover{
                   background-color: rgb(219, 182, 89);
@@ -521,8 +521,8 @@ li{
       }
 
       .image2{
-        height: 400px;
-        width: 290px;
+        height:48vh;
+        width: 28vw;
         margin-top: 2.5rem;
       }
 
@@ -559,25 +559,28 @@ li{
         opacity: 0.8;
     }
     .bodysection{
+      margin: 200px 0;
       background: url("https://res.cloudinary.com/dedsrw0qv/image/upload/v1728713969/profile_pic-removebg-preview_jt73te.png");
       background-repeat: no-repeat; 
-      background-size: cover; 
+      background-size: 800px;
+      background-position:center;
+      height: 90vh;
     }
     .box-left{
         text-align: center;
         div{
             margin-top: 350px;
             p{
-                font-size: 20px;
+                font-size: 30px;
             }
             h1,span{
-                font-size: 50px;
+                font-size: 60px;
             }
             h5{
-                font-size: 25px;
+                font-size: 30px;
             }
             button{
-                font-size: 13px;
+                font-size: 19px;
             }
             button:hover{
                 background-color: rgb(219, 182, 89);
@@ -589,7 +592,9 @@ li{
     .box-right{
         display: none;
     }
-
+    .bodyanime{
+        font-size: 60px;
+    }
     .aboutme-container{
         grid-template-columns:1fr;
     }
