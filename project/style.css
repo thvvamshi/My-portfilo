@@ -9,21 +9,22 @@ html{
 .massbody{
     color: white;
     background-color: black;
+    position: absolute;
 }
 .navbar-section{
-    padding-left: 25px;
+    padding-left: 20px;
     width: 92vw;
     margin:0 auto;
 }
 .anchor{
-    padding-left: 15px;
+    padding-left: 10px;
     margin-left: auto;
 }
 .itemnav{
     font-weight: 500;
     text-transform: uppercase;
     font-style: normal;
-    font-size: 15px;
+    font-size: 12px;
     color: white;
     margin:2px 2px;
 }
@@ -33,6 +34,12 @@ html{
 }
 .logo1{
     height: 31px;
+}
+.bodysection{
+    background: url("https://res.cloudinary.com/dedsrw0qv/image/upload/v1734858565/profile_pic-removebg-preview_2_voie2m.png");
+    background-repeat: no-repeat; 
+    background-size: 600px;
+    background-position: 600px;
 }
 .box-left{
     display: flex;
@@ -52,21 +59,13 @@ h1{
     font-style: normal;
     font-size: 60px;
     line-height: 1.2;
-} 
-.box-right{
-    height: 80vh;
-    margin-left: -100px;
-}
-.image{
-    height: 80vh;
-    width: 40vw;
 }
 .container-bodybtn{
      display: flex;
-    flex-direction: row;
+     flex-direction: row;
 }
 .bodybtn{
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     font-size: 10px;
 }
@@ -75,6 +74,8 @@ h1{
 }
 .aboutme-container{
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 .aboutme1{
     display: flex;
@@ -84,18 +85,20 @@ h1{
 }
 .about-left{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
 }
 .image2{
-    height: 60vh;
-    width: 30vw;
-    margin-top: 5rem;
+    height: 50vh;
+    width: 25vw;
+    margin-top: 3rem;
     margin-left: 4rem;
 }
 .about-right{
     width: 49vw;
+    display: flex;
+    flex-direction: column;
 }
 .about-header{
     text-align: center;
@@ -356,20 +359,18 @@ li{
     color: white;
 }
 .sendmsg-container{
-    margin: 30px auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    margin: 30px ;
 }
-.send-left{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.boxshodow{
+    background-color: rgb(170, 200, 212);
+     border: 2px solid white;
+     border-radius: 10px; 
+     padding: 15px;
 }
-.sendimg{
-    height: 70vh;
-    width: 30vw;
-    margin-left: auto;
+.boxshodow:hover{
+    box-shadow: rgba(183, 195, 108, 0.964) 0px 19px 38px,
+             rgba(219, 223, 97, 0.997) 0px 15px 12px
+
 }
 .sendbtn{
     border-radius: 30px;
@@ -382,13 +383,10 @@ li{
     letter-spacing: 2px;
 }
 .send-right{
-    height: 70vh;
-    width: 30vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(231, 219, 219);
     color: black;
 }
 .links-section{
@@ -440,4 +438,190 @@ li{
     margin-top: 40px;
     font-size: 15px;
     text-align: center;
+}
+/* Responsive design for large screen */
+@media (max-width: 1200px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .menuicon{
+        background-color: white;
+        opacity: 0.8;
+    }
+.navbar-section, .aboutme1, .resume-grid, .service-grid, .blog-grid, .contact-grid, .links-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .box-left,.send-left, .send-right {
+    padding: 20px;
+  }
+  .image2{
+    height: 58vh;
+    width: 30vw;
+    margin-top: -1rem;
+  }
+  .leftdown{
+    margin-left: 100px;
+  }
+}
+
+/* Responsive design for tablets screen */
+@media (max-width: 768px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .menuicon{
+        background-color: white;
+        opacity: 0.8;
+    }
+    .body-section{
+       text-align: center;
+        align-items: center;
+    }
+    .bodysection{
+        background: url("https://res.cloudinary.com/dedsrw0qv/image/upload/v1728713969/profile_pic-removebg-preview_jt73te.png");
+        background-repeat: no-repeat; 
+        background-size: 450px;
+        background-position: 130px;
+      }
+      .box-left{
+          text-align: center;
+          div{
+              margin-top: 350px;
+              p{
+                  font-size: 20px;
+              }
+              h1,span{
+                  font-size: 50px;
+              }
+              h5{
+                  font-size: 25px;
+              }
+              button{
+                  font-size: 13px;
+              }
+              button:hover{
+                  background-color: rgb(219, 182, 89);
+                  border: 2px solid rgb(42, 29, 29);
+                  color: black;
+              }
+          }
+      }
+      .box-right{
+          display: none;
+      }
+
+      .image2{
+        height: 400px;
+        width: 290px;
+        margin-top: 2.5rem;
+      }
+
+  .navbar-section, .resume-grid, .service-grid, .blog-grid, .contact-grid, .links-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .navbar-toggler {
+    display: block;
+  }
+  .box-left, .box-right {
+    text-align: center;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .bodybtn {
+    font-size: 12px;
+  }
+}
+
+/* Responsive design for mobile screen */
+@media (max-width: 490px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .menuicon{
+        background-color: white;
+        opacity: 0.8;
+    }
+    .bodysection{
+      background: url("https://res.cloudinary.com/dedsrw0qv/image/upload/v1728713969/profile_pic-removebg-preview_jt73te.png");
+      background-repeat: no-repeat; 
+      background-size: cover; 
+    }
+    .box-left{
+        text-align: center;
+        div{
+            margin-top: 350px;
+            p{
+                font-size: 20px;
+            }
+            h1,span{
+                font-size: 50px;
+            }
+            h5{
+                font-size: 25px;
+            }
+            button{
+                font-size: 13px;
+            }
+            button:hover{
+                background-color: rgb(219, 182, 89);
+                border: 2px solid rgb(42, 29, 29);
+                color: black;
+            }
+        }
+    }
+    .box-right{
+        display: none;
+    }
+
+    .aboutme-container{
+        grid-template-columns:1fr;
+    }
+    .aboutme1{
+        display: none;
+    }
+    .about-right{
+        text-align: center;
+        width: 100%;
+    }
+
+    .freecontainer{
+        background-image: url(https://themewagon.github.io/clark/images/bg_1.jpg);
+        background-repeat: no-repeat; 
+        background-position: center;
+
+     }
+
+    .freepara{
+        font-size: 43px;
+        font-weight: 600;
+    }
+    .freebtn{
+        border-radius: 50px;
+        font-size: 10px;
+        font-weight: 800;
+        background-color: goldenrod;
+        height: 3rem;
+        width: 7rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+
 }
