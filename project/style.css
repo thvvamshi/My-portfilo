@@ -441,14 +441,6 @@ li{
 }
 /* Responsive design for large screen */
 @media (max-width: 1200px) {
-    *{
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-    }
-    html{
-        scroll-behavior: smooth;
-    }
     .menuicon{
         background-color: white;
         opacity: 0.8;
@@ -460,8 +452,8 @@ li{
     padding: 20px;
   }
   .image2{
-    height: 50vh;
-    width: 30vw;
+    height: 450px;
+    width: 450px;
     margin-top: -1rem;
   }
   .leftdown{
@@ -471,14 +463,6 @@ li{
 
 /* Responsive design for tablets screen */
 @media (max-width: 768px) {
-    *{
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-    }
-    html{
-        scroll-behavior: smooth;
-    }
     .menuicon{
         background-color: white;
         opacity: 0.8;
@@ -490,24 +474,24 @@ li{
     .bodysection{
         background: url("https://res.cloudinary.com/dedsrw0qv/image/upload/v1728713969/profile_pic-removebg-preview_jt73te.png");
         background-repeat: no-repeat; 
-        background-size: 700px;
-        background-position: 100px;
+        background-size: cover;
+        background-position: 90px;
       }
       .box-left{
           text-align: center;
           div{
               margin-top: 350px;
               p{
-                  font-size: 25px;
+                  font-size: 28px;
               }
               h1,span{
-                  font-size: 65px;
+                  font-size: 57px;
               }
               h5{
-                  font-size: 35px;
+                  font-size: 28px;
               }
               button{
-                  font-size: 20px;
+                  font-size: 18px;
               }
               button:hover{
                   background-color: rgb(219, 182, 89);
@@ -521,66 +505,48 @@ li{
       }
 
       .image2{
-        height:48vh;
-        width: 28vw;
+        height: 400px;
+        width: 290px;
         margin-top: 2.5rem;
       }
 
   .navbar-section, .resume-grid, .service-grid, .blog-grid, .contact-grid, .links-grid {
     grid-template-columns: repeat(1, 1fr);
   }
-  .navbar-toggler {
-    display: block;
-  }
-  .box-left, .box-right {
+  .box-left {
     text-align: center;
-    padding: 10px;
-  }
-  h1 {
-    font-size: 40px;
-  }
-  .bodybtn {
-    font-size: 12px;
   }
 }
 
 /* Responsive design for mobile screen */
 @media (max-width: 490px) {
-    *{
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-    }
-    html{
-        scroll-behavior: smooth;
-    }
     .menuicon{
         background-color: white;
         opacity: 0.8;
     }
+    .body-section{
+        margin-top: 100px;
+    }
     .bodysection{
-      margin: 200px 0;
       background: url("https://res.cloudinary.com/dedsrw0qv/image/upload/v1728713969/profile_pic-removebg-preview_jt73te.png");
       background-repeat: no-repeat; 
-      background-size: 800px;
-      background-position:center;
-      height: 90vh;
+      background-size: cover; 
     }
     .box-left{
         text-align: center;
         div{
-            margin-top: 350px;
+            margin-top: 300px;
             p{
-                font-size: 30px;
+                font-size: 25px;
             }
             h1,span{
-                font-size: 60px;
+                font-size: 55px;
             }
             h5{
                 font-size: 30px;
             }
             button{
-                font-size: 19px;
+                font-size: 18px;
             }
             button:hover{
                 background-color: rgb(219, 182, 89);
@@ -592,9 +558,7 @@ li{
     .box-right{
         display: none;
     }
-    .bodyanime{
-        font-size: 60px;
-    }
+
     .aboutme-container{
         grid-template-columns:1fr;
     }
@@ -614,7 +578,7 @@ li{
      }
 
     .freepara{
-        font-size: 43px;
+        font-size: 40px;
         font-weight: 600;
     }
     .freebtn{
@@ -627,6 +591,5 @@ li{
         text-transform: uppercase;
         letter-spacing: 3px;
     }
-
 
 }
